@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./Assets/reset.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+    <link rel="shortcut icon" tpye="png" href="Images/LetterA.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Birgenheier Portfolio</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+        <img src="Images/BookIcon.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+       Adam Birgenheier Portfolio
+        </a>
+        <!-- Search Bar -->
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+
+    <!-- Card and Jumbo Tron -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="card col-sm-4 col-lg-4 class-center" style="width: 18rem; margin-bottom: 36px;">
+            <img src="images/headshot.jpg" class="card-img-top" alt="headshot">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align:center">Adam Birgenheier</h5>
+                <p class="card-text" style="text-align:center"><a href="Assets/prework-about-me/index.html" style="color:black"><u>About Me</u></a></p>
+                <p class="card-text" style="text-align:center"><a href="Assets/prework-about-me/index.html" style="color:black"><u>Contact Page</u></a></p>
+                <div class="footer-social-icons">
+                    <ul>
+                        <li><a href="https://www.facebook.com/adam.birgenheier" target="blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/abirgenheier/" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/adambear17/" target="blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card col-sm-4 col-lg-4 class-center" style="margin-bottom: 4%;">
+            <img class="card-img-top" src="Images/BackgroundExcel.jpg" alt="Card image cap" style="height:191px; width:286px">
+            <div class="card-body">
+              <h5 class="card-title">Procurement Workbook</h5>
+              <p class="card-text">An excel spreadsheet created to identify property values and estimated ROI based off company credentials.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Excel / VBA</li>
+              <li class="list-group-item">Real Estate Investment-Based</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link" onclick="passWordIPS()">Link</a>
+              <!-- <input type="button" class="card-link" value="Enter Protected Area" onClick="passWord()"> -->
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+        <div class="card col-sm-4 col-lg-4 class-center">
+            <img class="card-img-top" src="Images/BackgroundHTMLCSS.jpg" alt="Card image cap" style="height:191px; width:286px;">
+            <div class="card-body">
+              <h5 class="card-title">Mock Gryphon Real Estate Website</h5>
+              <p class="card-text">Dynamic website that applies many creative tools and functions.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML, CSS, JS</li>
+              <li class="list-group-item">Service Based Website</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link" onclick="passWordGW()">Link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-sm-4 col-lg-4 class-center">
+            <img class="card-img-top" src="Images/BackgroundExcel.jpg" alt="Card image cap" style="height:191px; width:286px">
+            <div class="card-body">
+              <h5 class="card-title">Project Management Workbook</h5>
+              <p class="card-text" style="font-size: 14px">An excel spreadsheet that factors both company financial data along with company asset control to forecast and predicate total outcomes of project with projected ROI.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Excel / VBA</li>
+              <li class="list-group-item">Real Estate Investment Based</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link" onclick="passWordPM()">Link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+        <div class="card col-sm-4 col-lg-4 class-center">
+            <img class="card-img-top" src="Images/BackgroundPython.png" alt="Card image cap" style="height:191px; width:286px; margin-top:10px">
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">Made through viewing tutorial on YouTube with design edits made on own.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">General</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link" onclick="passWordCalc()">Link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+        <div class="card col-sm-4 col-lg-4 class-center">
+          <img class="card-img-top" src="Images/BackgroundHTMLCSS.jpg" alt="Card image cap" style="height:191px; width:286px; margin-top:10px">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">Made through viewing tutorial on YouTube with design edits made on own.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML, CSS, JS</li>
+              <li class="list-group-item">General</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link" onclick="passWordPassGen()">Link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>    
+        </div>
+      </div>
+      <div class="row">
+        
+      </div>
+    </div>
+      
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="mailto:adamcarlbirgenheier@gmail.com?Subject=Inquiry":> Adam Carl Birgenheier</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<script src="./Assets/logic.js"></script>
+<script src="./Assets/passwords.js"></script>
+</body>
+</html>
